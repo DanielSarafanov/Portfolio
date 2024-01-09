@@ -21,7 +21,7 @@ function About({}: Props) {
               My journey as a software engineer began with a passion for problem-solving and has since evolved into a career where I've developed skills in various technologies such as C#, Python, Java, Angular, and React, to name a few. 
               During my experience at SOTI, as a Full Stack Software Developer, I led agile development, resolved bugs, and collaborated with teams to enhance MobiControl for over 17,000 businesses. 
               When not working, I'm either exploring music, at the gym, watching soccer or working on personal projects. I'm currently seeking new opportunities to contribute, learn, and grow within the industry. 
-              Let’s connect!
+              Let’s connect! 
             </p>
         </div>
 
