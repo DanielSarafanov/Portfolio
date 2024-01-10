@@ -24,9 +24,12 @@ const ContactMe = (props: Props) => {
     }
 
   return (
-    <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    <div className='h-screen flex relative flex-col text-center md:text-left max-w-7xl px-10 justify-evenly mx-auto items-center'>
         
-        <h3 className='absolute top-24 uppercase tracking-[10px] text-[#86B6F6] text-2xl'>Contact</h3>
+
+        <div className='flex justify-center mt-8 md:mt-0'>
+          <h3 className='text-2xl text-[#86B6F6] uppercase tracking-[10px] md:mt-20'>Contact ME</h3>
+        </div>
 
         <div className='flex flex-col space-y-10'>
             <h4 className='text-4xl font-semibold text-center'>Lets Get in Touch!</h4>
@@ -60,7 +63,7 @@ const ContactMe = (props: Props) => {
 
                 <textarea {...register('message')} className = 'contactInput' placeholder='Message' />
 
-                <button className='bg-general-text py-5 rounded-md font-bold text-sm text-white uppercase'>Submit</button>
+                <button className='bg-general-text py-5 rounded-md font-bold text-sm text-white uppercase sm:max-w-screen-sm'>Submit</button>
 
             </form>
 

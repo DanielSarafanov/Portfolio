@@ -24,11 +24,14 @@ type Props = {}
 
 function Skills({}: Props) {
   return (
+    
     <motion.div className='h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center'
 
     >
+        <div className='flex justify-center mt-8 md:mt-0'>
+          <h3 className='text-2xl text-[#86B6F6] uppercase tracking-[10px] md:mt-20'>Skills</h3>
+        </div>
 
-        <h3 className='absolute top-24 uppercase tracking-[10px] text-[#86B6F6] text-2xl'>Skills</h3>
 
         <motion.div className='grid grid-cols-4 gap-4 m:grid-cols-5 lg:grid-cols-5'
         initial={{x:-200, opacity:0}} transition={{duration:2}} whileInView={{opacity:1, x:0}} viewport={{once:true}}>

@@ -1,11 +1,12 @@
 "use client";
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import { SocialIcon } from 'react-social-icons'
 import { motion } from 'framer-motion';
 
 type Props = {}
 
 export default function Header({}: Props) {
+
 
   const handleSmoothScroll = (e: React.MouseEvent, target: string) => {
     e.preventDefault();

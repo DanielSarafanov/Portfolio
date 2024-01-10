@@ -10,6 +10,6 @@
     }
 
     .contactInput{
-        @apply outline-none rounded-lg border px-6 py-4 border-[#176B87]/10 text-[#176B87] placeholder-[#cbe1ff]
+        @apply outline-none rounded-lg border px-6 py-4 border-[#176B87]/10 text-[#176B87] placeholder-[#cbe1ff] sm:max-w-screen-sm p-4
     }
 }
