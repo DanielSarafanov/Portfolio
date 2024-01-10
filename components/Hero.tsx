@@ -22,10 +22,14 @@ function Hero({}: Props) {
         delaySpeed: 2000,
     });
 
-    const handleSmoothScroll = (e, target) => {
+    const handleSmoothScroll = (e: React.MouseEvent, target: string) => {
         e.preventDefault();
-        document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+        const element = document.querySelector(target);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
       };
+    
 
   return (
     

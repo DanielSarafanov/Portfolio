@@ -13,7 +13,7 @@ export default function Home() {
     <div className='bg-[#EEF5FF] text-general-text h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 
      scrollbar-track-[#176B87] scrollbar-thin scrollbar-thumb-white'>
       <Head>
-        <title>Daniel Sarafanov's Portfolio</title>
+        <title>Daniel Sarafanov&apos;s Portfolio</title>
       </Head>
 
       <Header />

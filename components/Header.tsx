@@ -7,10 +7,14 @@ type Props = {}
 
 export default function Header({}: Props) {
 
-  const handleSmoothScroll = (e, target) => {
+  const handleSmoothScroll = (e: React.MouseEvent, target: string) => {
     e.preventDefault();
-    document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+    const element = document.querySelector(target);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
+
 
   return (
     <header className='sticky top-0 p-5 flex items-start justify-between max-w-5xl mx-auto z-20 xl:items-center'>
