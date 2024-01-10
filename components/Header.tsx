@@ -38,7 +38,7 @@ export default function Header({}: Props) {
             </motion.div>
 
             <motion.div whileHover={{ scale: 1.1}} whileTap={{scale: 0.9}}>
-              <SocialIcon url='https://github.com' fgColor='#86B6F6' bgColor='transparent'></SocialIcon>
+              <SocialIcon url='https://github.com/DanielSarafanov' fgColor='#86B6F6' bgColor='transparent'></SocialIcon>
             </motion.div>
             
 

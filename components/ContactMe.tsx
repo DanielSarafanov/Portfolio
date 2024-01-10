@@ -2,6 +2,7 @@
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/16/solid'
 import {useForm, SubmitHandler} from 'react-hook-form';
 import React from 'react'
+import { SocialIcon } from 'react-social-icons';
 
 type Props = {}
 
@@ -42,6 +43,10 @@ const ContactMe = (props: Props) => {
                     <p>sarafanovdaniel@gmail.com</p>
                 </div>
 
+                <div className='flex items-center space-x-5 justify-center'>
+                    <SocialIcon url='https://www.linkedin.com/in/daniel-sarafanov-2b11831a7/' fgColor='#86B6F6' bgColor='transparent'></SocialIcon>
+                    <p>LinkedIn</p>
+                </div>
             </div>
 
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>

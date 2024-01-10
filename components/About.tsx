@@ -7,6 +7,12 @@ import aboutMeImage from '../public/AboutMeImage.png';
 type Props = {}
 
 function About({}: Props) {
+
+  const handleSmoothScroll = (e, target) => {
+    e.preventDefault();
+    document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-24 uppercase tracking-[10px] text-[#86B6F6] text-2xl'>About</h3>
@@ -21,7 +27,7 @@ function About({}: Props) {
               My journey as a software engineer began with a passion for problem-solving and has since evolved into a career where I've developed skills in various technologies such as C#, Python, Java, Angular, and React, to name a few. 
               During my experience at SOTI, as a Full Stack Software Developer, I led agile development, resolved bugs, and collaborated with teams to enhance MobiControl for over 17,000 businesses. 
               When not working, I'm either exploring music, at the gym, watching soccer or working on personal projects. I'm currently seeking new opportunities to contribute, learn, and grow within the industry. 
-              Let’s connect! 
+              <span className='uppercase font-semibold cursor-pointer text-lg animate-pulse'  onClick={(e) => handleSmoothScroll(e, '#contactMe')}> LET'S CONNECT!</span>
             </p>
         </div>
 

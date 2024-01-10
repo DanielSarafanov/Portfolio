@@ -15,7 +15,7 @@ function Hero({}: Props) {
     const [text,count] = useTypewriter({
         words: [
             "Hi, I'm Daniel Sarafanov",
-            "A Freshly Graduated Computer Science Major", 
+            "A New Computer Science Graduate", 
             "Looking For New Opportunities!"
         ],
         loop: true,

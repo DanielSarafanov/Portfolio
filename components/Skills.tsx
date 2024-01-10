@@ -30,7 +30,7 @@ function Skills({}: Props) {
 
         <h3 className='absolute top-24 uppercase tracking-[10px] text-[#86B6F6] text-2xl'>Skills</h3>
 
-        <motion.div className='grid grid-cols-4 gap-4'
+        <motion.div className='grid grid-cols-4 gap-4 m:grid-cols-5 lg:grid-cols-5'
         initial={{x:-200, opacity:0}} transition={{duration:2}} whileInView={{opacity:1, x:0}} viewport={{once:true}}>
             <Skill skillsImage={FirstSkill}/>
             <Skill skillsImage={SecondSkill}/>

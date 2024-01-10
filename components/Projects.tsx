@@ -20,21 +20,21 @@ function Projects({}: Props) {
             title="Spotify Explore" 
             description="Leveraged Spotify's public APIs to develop a website offering users access to global music trends. This platform enables users to explore popular tracks from various countries, discover new sounds from around the world, and seamlessly add selections to their personal playlists."
             skills='Implemented using React.js frontend with a Node.js and Express.js backend.'
-            githubLink='https://github.com/'
+            githubLink='https://github.com/DanielSarafanov/SpotifyExplore'
           />
           <Project 
             imageSrc={SecondProjectImage} 
             title="Discover Weekly Archiver" 
             description="Developed an automation API leveraging Spotify's public APIs to archive Discover Weekly playlists."
             skills='Implemented using Python and Flask.'
-            githubLink='https://github.com/'
+            githubLink='https://github.com/DanielSarafanov/DsicoverWeeklyArchiver'
           />
           <Project 
             imageSrc={ThirdProjectImage} 
             title="SPOTTER" 
             description="Developed an iOS application, Spotter, designed for gym enthusiasts and beginners. The app provides features for users to track their gym activities and monitor progress. It offers real-time tracking and personalized settings to support consistent gym habits."
             skills='Implemented using Swift with a Firebase backend.'
-            githubLink='https://github.com/'
+            githubLink='https://github.com/DanielSarafanov'
           />
         </div>
 
