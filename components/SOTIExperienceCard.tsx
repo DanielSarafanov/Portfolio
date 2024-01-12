@@ -26,7 +26,7 @@ function ExperienceCard({}: Props) {
                 <li>Facilitated design review meetings with lead architects, ensuring feedback and authorization.</li>
                 <li>Coordinated with Product Management team to analyze and identify customer needs</li>
                 <li>Worked closely with the database team to design new SQL stored procedures.</li>
-                <li>Implemented several new API routes in C# and .NET framework.</li>
+                <li>Implemented several new API routes.</li>
                 <li>Designed frontend interfaces for new features with TypeScript and Angular framework.</li>
                 <li>Debugged and resolved issues to ensure smooth functionality and optimal performance of web applications.</li>
                 <li>Utilized version control systems, particularly GitHub, for code versioning and collaboration.</li>

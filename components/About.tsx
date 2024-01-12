@@ -18,11 +18,11 @@ function About({}: Props) {
 
   return (
     <div className='flex flex-col h-screen max-w-7xl px-10 mx-auto'>
-        <div className='flex justify-center mt-8 md:mt-0'>
+        <div className='flex justify-center mt-20 md:mt-0'>
           <h3 className='text-2xl text-[#86B6F6] uppercase tracking-[10px] md:mt-20'>About</h3>
         </div>
         
-        <div className='flex flex-col md:flex-row justify-evenly items-center text-center md:text-left flex-grow'>
+        <div className='flex flex-col md:flex-row justify-center items-center text-center md:text-left flex-grow'>
             <Image src={aboutMeImage} alt='Portfolio Image' className='my-6 md:my-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[400px]' />
 
             <div className='space-y-10 px-0 md:px-10'>

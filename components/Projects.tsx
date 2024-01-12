@@ -10,14 +10,14 @@ type Props = {}
 
 function Projects({}: Props) {
   return (
-    <div className='flex flex-col h-screen max-w-full px-10 mx-auto overflow-hidden items-center'>
+    <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
         
-        <div className='flex justify-center mt-8 md:mt-0'>
+        <div className='flex justify-center mt-20 md:mt-0'>
           <h3 className='text-2xl text-[#86B6F6] uppercase tracking-[10px] md:mt-20'>Projects</h3>
         </div>
 
-        <div className='relative w-full flex overflow-x-scroll  overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-[#176B87] scrollbar-thumb-[#ffffff] scrollbar items-center'>
-          <div className='flex space-x-4 items-center just-fy-center'>
+        <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-[#176B87] scrollbar-thumb-[#ffffff] scrollbar items-center'>
+          <div className='flex items-center justify-start space-x-4 mx-auto'>
           <Project 
             imageSrc={FirstProjectImage} 
             title="Spotify Explore" 
