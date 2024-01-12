@@ -10,7 +10,7 @@ type Props = {}
 
 function Projects({}: Props) {
   return (
-    <div className='h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0'>
+    <div className='h-screen relative flex overflow-hidden flex-col text-left max-w-full justify-evenly mx-auto items-center z-0'>
         
         <div className='flex justify-center mt-20 md:mt-0'>
           <h3 className='text-2xl text-[#86B6F6] uppercase tracking-[10px] md:mt-20'>Projects</h3>
