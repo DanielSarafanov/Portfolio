@@ -30,7 +30,7 @@ function About({}: Props) {
                 <p className='text-base'>
                   My journey as a software engineer began with a passion for problem-solving and has since evolved into a career where Iv&apos;e developed skills in various technologies such as C#, Python, Java, Angular, and React, to name a few. 
               During my experience at SOTI, as a Full Stack Software Developer, I led agile development, resolved bugs, and collaborated with teams to enhance MobiControl for over 17,000 businesses. 
-              When not working, I&apos;, either exploring music, at the gym, watching soccer or working on personal projects. I&apos;m currently seeking new opportunities to contribute, learn, and grow within the industry. 
+              I&apos;m currently seeking new opportunities to contribute, learn, and grow as a software engineer. 
               <span className='uppercase font-semibold cursor-pointer text-lg animate-pulse'  onClick={(e) => handleSmoothScroll(e, '#contactMe')}> LET&apos;S CONNECT!</span>
                 </p>
             </div>
