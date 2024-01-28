@@ -18,29 +18,35 @@ export default function Home() {
 
       <Header />
 
-      <section id="hero" className='snap-start scroll-smooth'>
-        <Hero/>
-      </section>
+      <div className='flex flex-col space-y-96'>
 
-      <section id="about" className='snap-center scroll-smooth'>
-        <About />
-      </section>
+        <section id="hero" className='snap-start scroll-smooth'>
+          <Hero/>
+        </section>
 
-      <section id="experience" className='snap-center scroll-smooth'>
-        <Experience />
-      </section>
+        <section id="about" className='snap-center scroll-smooth'>
+          <About />
+        </section>
 
-      <section id='skills' className='snap-center scroll-smooth'>
-        <Skills />
-      </section>
+        <section id="experience" className='snap-center scroll-smooth'>
+          <Experience />
+        </section>
 
-      <section id='projects' className='snap-center scroll-smooth'>
-        <Projects />
-      </section>
+        <section id='skills' className='snap-center scroll-smooth'>
+          <Skills />
+        </section>
 
-      <section id='contactMe' className='snap-center scroll-smooth'> 
-        <ContactMe />
-      </section>
+        <section id='projects' className='snap-center scroll-smooth'>
+          <Projects />
+        </section>
+
+        <section id='contactMe' className='snap-center scroll-smooth'> 
+          <ContactMe />
+        </section>
+
+      </div>
+
+
 
     </div>
   )
